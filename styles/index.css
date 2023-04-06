@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url(WTA.css);
+@import url(pricing.css);
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;    
+    list-style: none;
+}
+
+section {
+    margin: auto;
+    /* padding: 30px 0; */
+    height: 100vh;
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1170px;
+    margin: auto;
+    padding-top: 80px;
+    height: 100vh;
+}
+
